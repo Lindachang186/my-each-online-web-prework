@@ -8,7 +8,7 @@ def my_each(array) # put argument(s) here
 end
 
 yielding do
-  my_each(array).each do |item|
+  array.each do |item|
     return item
   end
 end
