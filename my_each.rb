@@ -9,4 +9,5 @@ end
 
 yielding do
   array.each do |item|
-  end 
+  end
+end 
