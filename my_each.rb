@@ -9,5 +9,6 @@ end
 
 yielding do
   array.each do |item|
+    return item
   end
 end 
